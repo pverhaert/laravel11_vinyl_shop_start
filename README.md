@@ -8,7 +8,8 @@
     - Run the command `npm install`
     - Configure PhpStorm (https://itf-laravel-11.netlify.app/config/laravel#configure-phpstorm)
     - Run the command `php artisan key:generate`
-    - Run the command `php artisan migrate`
+    - Run the command `php artisan migrate` (just enter or type `yes` when asked for creating the SQLite database)
+    - Run the command `php artisan icons:cache`
     - Run the command `npm run watch` to open the project in the browser
 
 
